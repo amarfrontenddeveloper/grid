@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 175px 175px;
+            width: 400px;
+            height: 600px;
+          
+            float: left;
+            margin-left: 150px;
+            background-color: #544639;          
+        }
+        .items{
+            color: white;
+            border-radius: 5px;
+            height: 120px;
+            margin: 20px;    
+        }
+        .items img
+        {
+          border-radius: 6px;
+        }
+        .itemsp
+        {  
+            border-radius: 5px;
+            height: 120px;
+            margin: 20px;
+            width: 200px;
+            color: white; 
+        }
+        .items ,.itemsp,  p
+        {
+            font-size: 20px;
+        }
+        .hot
+        {
+            margin-left: 10px;
+        }
+    
+       .name{
+           color: rgb(227, 185, 104);
+       }
+    </style>
+</head>
+<body>
+ <div class="container">
+  <div class="hot">
+      <div class="items">
+          <img src="menu-item-1.jpg" alt="">
+      </div>
+      <div class="items">
+          <img src="menu-item-2.jpg" alt="">
+      </div>
+      <div class="items">
+          <img src="menu-item-3.jpg" alt="">
+      </div>
+      <div class="items">
+        <img src="menu-item-4.jpg" alt="">
+      </div>
+  </div>
+  <div class="cold" >
+    <div class="hot">
+        <div class="itemsp">
+            <p> <p class="name"> Hot Cappuccino</p><br>
+                Medium Rs. 320<br>
+                Large Rs. 640</p>
+        </div>
+        <div class="itemsp">
+            <p><p class="name">Hot Americano</p><br>
+                Small Rs. 240<br>
+                Large Rs. 560</p>
+        </div>
+        <div class="itemsp">
+            <p><p class="name">Hot Latte</p><br>
+               Medium Rs. 540<br>
+                Large Rs.750</p>
+        </div>
+        <div class="itemsp">
+            <p><p class="name">Hot Espresso
+                Hot Chocolate</p><br>
+                Size Medium Rs.450<br>
+                Large Rs. 670</p>
+        </div>
+    </div>
+  </div>
+ </div>  
+ <div class="container">
+    <div class="hot">
+        <div class="itemsp">
+            <p><p class="name">Iced Cappuccino</p><br>
+                Small Rs. 340<br>
+                Large Rs. 680</p>
+        </div>
+        <div class="itemsp">
+            <p><p class="name">Iced Americano</p><br>
+                Small Rs. 456<br>
+                Large Rs. 670</p>
+        </div>
+        <div class="itemsp">
+            <p><p class="name">Iced Milky Latte</p><br>
+                Small Rs. 120<br>
+                Large Rs. 320</p>
+        </div>
+        <div class="itemsp">
+            <p><p class="name">Iced Espresso</p><br>
+                Iced Mocha
+                Small Rs.230<br>
+                Large Rs.450</p>
+        </div>
+    </div>
+    <div class="cold" >
+      <div class="hot">
+          <div class="items">
+              <img src="menu-item-5.jpg" alt="">
+          </div>
+          <div class="items">
+              <img src="menu-item-6.jpg" alt="">
+          </div>
+          <div class="items">
+              <img src="menu-item-7.jpg" alt="">
+          </div>
+          <div class="items">
+              <img src="menu-item-8.jpg" alt="">
+          </div>
+      </div>
+    </div>
+   </div>   
+</body>
+</html>
